@@ -1,0 +1,550 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  align-items: center; }
+
+.container .wrapper .content  .addListModal{
+
+  background-color:black;
+  width:100%;
+  height:100%;
+  opacity:0.7;
+  position:absolute;
+  top:0;
+  left:0;
+  display:flex;
+  z-index:1;
+  justify-content:center;
+  align-items:center;
+  display: none;
+
+}
+
+.container .wrapper .content  .addListModal .modal-content{
+
+  background-color:#d8cbc6;
+  width:350px;
+  height:180px;
+  border-radius:20px;
+  padding:20px;
+
+}
+
+
+.container .wrapper .content  .addListModal .modal-content form{
+
+  margin:30px;
+
+
+
+}
+
+.container .wrapper .content  .addListModal .modal-content form input{
+
+  width: 200px;
+  height:35px;
+  border:none;
+  border-radius:20px;
+  margin:10px;
+  margin-left:40px;
+  padding-left:20px;
+  margin-bottom: 50px;
+}
+
+.container .wrapper .content  .addListModal .modal-content form a{
+
+
+  padding: 10px;
+  border-radius:10px;
+  margin-top:40px;
+  margin-left:60px;
+  background-color: #50E3A4;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 750px;
+  margin-left: 50px;
+
+}
+
+.container .wrapper .content  .addListModal .modal-content form a:hover{
+  cursor: default;
+}
+
+
+
+
+
+.container .wrapper .content  .addTaskModal{
+
+  background-color:black;
+  width:100%;
+  height:100%;
+  opacity:0.7;
+  position:absolute;
+  top:0;
+  left:0;
+  display:flex;
+  z-index:1;
+  justify-content:center;
+  align-items:center;
+  display: none;
+
+}
+
+.container .wrapper .content  .addTaskModal .modal-content{
+
+  background-color:#d8cbc6;
+  width:450px;
+  height:300px;
+  border-radius:20px;
+  padding:20px;
+
+}
+
+.container .wrapper .content  .addTaskModal .modal-content form{
+
+  margin:30px;
+
+
+
+}
+
+.container .wrapper .content  .addTaskModal .modal-content form input{
+
+  width: 290px;
+  height:35px;
+  border:none;
+  border-radius:20px;
+  margin:10px;
+  margin-left:40px;
+  padding-left:20px;
+}
+
+.container .wrapper .content  .addTaskModal .modal-content form  #modalDate{
+
+  height:35px;
+  margin-bottom: 50px;
+}
+.container .wrapper .content  .addTaskModal .modal-content form a{
+
+  width: 100px;
+  height:40px;
+  border:none;
+  border-radius:10px;
+  margin-top:40px;
+  margin-left:60px;
+  background-color: #50E3A4;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+
+  margin-left: 80px;
+  padding: 10px;
+
+
+}
+
+
+
+
+
+
+.wrapper {
+  background-color:#F0EFE9;
+  width:1250px;
+  height:550px;
+  margin: 10px auto;
+  margin-top: -30px;}
+
+.wrapper .userinfo{
+
+  width:200px;
+
+  float:left;
+  display:block;
+  margin-top:30px;
+  margin-left: 30px;
+  position: fixed;
+  height: 10px;
+}
+
+.wrapper .userinfo a{
+  font-size:16px;
+  margin-left:5px;
+  color:#666666;
+}
+
+.wrapper .userinfo  img{
+
+  width:20px;
+  height:20px;
+  margin-left:30px;
+  border: 0 ;
+  background: url("../images/icon/logout.png");
+  background-size:cover;
+  border-radius:10px;
+
+}
+
+.wrapper .lists{
+  width:620px;
+  height:50px;
+  display:block;
+  float:right;
+  margin-right:100px;
+
+
+}
+
+.wrapper .lists a{
+  padding-top:5px;
+  font-size:16px;
+  margin-left:70px;
+  color:#666666;
+  display:block;
+  float:left;
+
+}
+
+.wrapper .lists select{
+  width:400px;
+  display:block;
+  float:left;
+  margin-left:10px;
+  height:35px;
+  border-radius: 10px;
+  border: none;
+    padding-left: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.wrapper .lists select option{
+    font-size: 14px;
+    height: 20px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    border-radius:25px;
+    cursor: pointer;
+
+}
+
+.wrapper .lists #addList{
+
+  width:25px;
+  height:25px;
+  margin-left:30px;
+  background: url("../images/icon/add.png");
+  background-size:cover;
+  margin-top: 10px;
+  border-radius:20px;
+}
+
+.wrapper .lists #deleteList{
+
+  width:25px;
+  height:25px;
+  margin-left: 10px ;
+  border: 0 ;
+  background: url("../images/icon/delete.png");
+  background-size:cover;
+  margin-top: 10px;
+  border-radius:100px;
+}
+
+.wrapper .content{
+
+  margin:20px;
+  margin-top:50px;
+}
+
+.wrapper .content #addTask{
+
+  width:25px;
+  height:25px;
+  margin-left: 38px;
+  background: url("../images/icon/add.png");
+  background-size:cover;
+  margin-top: 50px;
+  border-radius:20px;
+  position: relative;
+}
+
+
+.wrapper .content .todo-listtable {
+
+  position:relative;
+
+  float:left;
+  padding-left:10px;
+  width:1200px;
+  height:400px;
+  border-radius: 10px;
+  margin: 10px 0 20px 0;
+  background-color: #fff;
+  overflow-y:scroll;}
+
+
+.wrapper .content .todo-listtable ul {
+  padding: 10px; }
+
+.wrapper .content .todo-listtable ul li {
+  position: relative;
+  margin-bottom: 20px;
+  height: 30px;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+  font-size:14px;
+  align-items: center; }
+
+.wrapper .content .todo-listtable ul li:hover {
+  background-color: skyblue;
+}
+
+.wrapper .content .todo-listtable ul li:before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  width: 100%;
+  border-bottom: solid 1px #F0EFE9; }
+.wrapper .content .todo-listtable ul li:last-child {
+  margin: 0px; }
+.wrapper .content .todo-listtable ul li.active .title {
+  text-decoration: line-through;
+
+  opacity: .3; }
+.wrapper .content .todo-listtable ul li.active .description {
+  text-decoration: line-through;
+  opacity: .3; }
+.wrapper .content .todo-listtable ul li.active .deadline {
+  text-decoration: line-through;
+  opacity: .3; }
+.wrapper .content .todo-listtable ul li.active .type {
+  border-color: #50E3A4;
+  background-color: #50E3A4}
+
+
+.wrapper .content .todo-listtable ul li.active .type:before {
+
+  background-color: #50E3A4;
+  background-image: url("../images/icon/check-icon-white.svg");
+  max-width: 10px;
+  max-height: 10px;
+  background-size:cover;
+}
+.wrapper .content .todo-listtable ul li span {
+  height: 40px;
+  display: -webkit-box;
+
+  -webkit-box-align: center;
+  align-items: center; }
+.wrapper .content .todo-listtable ul li .title {
+  overflow: hidden;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 65%;
+  flex: 0 0 65%; }
+.wrapper .content .todo-listtable ul li .id {
+  color: #B2B2B2;
+  font-size: 12px; }
+.wrapper .content .todo-listtable ul li .type {
+
+  width: 10px;
+  height: 10px;
+  border: solid 2px #B2B2B2;
+  border-radius: 100%;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  align-items: center; }
+.wrapper .content .todo-listtable ul li .type:before {
+  content: "";
+  position: relative; }
+
+
+
+
+.wrapper .content .todo-listtable ul li .delete {
+  width: 12px;
+  height: 12px;
+  background-image: url("../images/icon/close-icon-black.svg");
+  opacity: .3;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.wrapper .content .todo-listtable ul li .change {
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/change.png");
+  opacity: .6;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper .content .todo-filter {
+  height: 50px;
+  width: 1200px;
+
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #B2B2B2;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.wrapper .content .todo-filter .todofilter-left {
+  position: relative;
+  padding-left: 250px;
+  width: 220px;;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  align-items: center; }
+.wrapper .content .todo-filter .todofilter-left:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border-right: solid 2px #F0EFE9; }
+.wrapper .content .todo-filter .todofilter-left span b {
+  color: #50E3A4; }
+.wrapper .content .todo-filter .todofilter-right {
+  width: 400px;
+  height: 100%;
+  display: -webkit-box;
+
+  -webkit-box-pack: center;
+
+  -webkit-box-align: center;
+
+  align-items: center; }
+.wrapper .content .todo-filter ul li {
+  float: left;
+  list-style-type:none;
+  margin-left:30px;
+  margin-right: 20px; }
+
+.wrapper .content .todo-filter ul li.active span, .wrapper .content .todo-filter ul li:hover span {
+  background-color: #50E3A4;
+  color: #fff;
+  }
+.wrapper .content .todo-filter ul li span {
+  padding: 10px; }
+
+.wrapper .login1{
+
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -200px;
+  margin-top: -160px;
+  padding : 50px;
+  width : 250px;
+  height:180px;
+  float : left;
+  border-radius: 10px;
+  background-color: #fff;
+
+}
+
+.wrapper .login1 .loginform input{
+
+  background-color: #fafaf8;
+  border: none !important;
+  height:40px;
+  width:245px;
+  text-align: center;
+  margin-bottom:20px;
+}
+
+.wrapper .login1  button{
+  margin-left:75px;
+  width:100px;
+  height:38px;
+  position:center;
+  margin-top:25px;
+  border-radius:10px;
+  display:block;
+}
+
+.wrapper .login1  a{
+  display:block;
+  float:right;
+  margin-right:-30px;
+  margin-bottom:-20px;
+  font-size:14px;
+  cursor: default;
+
+}
+
+
+.wrapper .register1{
+
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -190px;
+  margin-top: -220px;
+  padding : 50px;
+  width : 250px;
+  height:320px;
+  float : left;
+  border-radius: 10px;
+  background-color: #fff;
+
+}
+
+.wrapper .register1 .registerform input{
+
+  background-color: #fafaf8;
+  border: none !important;
+  height:40px;
+  width:245px;
+  text-align: center;
+  margin-bottom:20px;
+}
+
+.wrapper .register1   button{
+
+  margin-left:75px;
+  width:100px;
+  height:38px;
+  position:center;
+  margin-top:35px;
+  border-radius:10px;
+  display:block;
+}
+
+
+
+
+
+body, html {
+  position: relative;
+  height: 100%; }
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.3;
+  background-color: #F0EFE9; }
+
